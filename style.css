@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transform: translate3d(0px,0px,0px);
+}
+
+.item {
+    flex-shrink: 0;
+    max-width: 500px;
+    margin: 0 20px;
+}
